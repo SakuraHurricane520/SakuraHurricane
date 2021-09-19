@@ -1,3 +1,3 @@
 原文：C:\Users\LJY\Desktop\check\test\orig.txt
-须查重文件：C:\Users\LJY\Desktop\check\test\orig_add.txt
-查重结果为：99.20%
+须查重文件：C:\Users\LJY\Desktop\check\test\orig_0.8_dis_15.txt
+查重结果为：94.31%
