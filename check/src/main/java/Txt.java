@@ -1,15 +1,11 @@
 import java.io.*;
 
-
 public class Txt {    //Txt类是有关文件的读取写入
 
     public static void output(double result, String orig1, String orig2, String absolute){
-        try{                             // 将结果输出到p所指定的位置
+        try{                             // 将结果输出到所指定的位置a
             FileWriter write = new FileWriter(absolute);
             PrintWriter out = new PrintWriter(write, false);
-
-
-
             result *= 100;
             String output = String.format("%.2f", result);
             out.print("原文：" + orig1 + "\n");

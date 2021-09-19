@@ -1,9 +1,5 @@
 
-
-
-
 import java.util.*;
-
 
 public class Compute {
 
@@ -36,15 +32,12 @@ public class Compute {
         }
     }
 
-
-
     // 求余弦相似度
     public double sim() {
         double result;
         result = pointMulti(vectorMap) / sqrtMulti(vectorMap);
         return result;
     }
-
 
     // 求平方和
     private double squares(Map<Character, int[]> paramMap) {
